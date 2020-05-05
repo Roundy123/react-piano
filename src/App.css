@@ -1,0 +1,108 @@
+* {
+  box-sizing: border-box;
+}
+
+.pianoContainer {
+  position: relative;
+  justify-content: center;
+  width: 50%;
+  margin: 10% auto;
+  display: flex;
+  /* border: 1px solid black; */
+  height: 100px;
+}
+
+.KeyUp[type="white"] {
+  position: relative;
+  width: 35px;
+  height: 225px;
+  border: 1px solid black;
+  /* display: block; */
+  box-sizing: border-box;
+  text-align: center;
+  /* padding-top: 200px; */
+  border-radius: 0px 0px 5px 5px;
+}
+
+.KeyDown[type="white"] {
+  position: relative;
+  width: 35px;
+  height: 225px;
+  border: 1px solid red;
+  background: green;
+  /* display: block; */
+  box-sizing: border-box;
+  text-align: center;
+  /* padding-top: 200px; */
+  border-radius: 0px 0px 5px 5px;
+}
+
+/* .KeyUp[type="black"] {
+  width: 24px;
+  height: 150px;
+  left: 50px;
+  position: absolute;
+  z-index: 10;
+  border: 1px solid black;
+  background: black;
+  box-sizing: border-box;
+  text-align: center;
+  border-radius: 0px 0px 5px 5px;
+} */
+
+/* .KeyDown[type="black"] {
+  width: 24px;
+  height: 150px;
+  left: 50px;
+  position: absolute;
+  z-index: 10;
+  border: 1px solid black;
+  background: green;
+  box-sizing: border-box;
+  text-align: center;
+  border-radius: 0px 0px 5px 5px;
+} */
+
+.blackKeyWrapper {
+  position: relative;
+  width: 0;
+}
+
+.KeyUp[type="black"] {
+  width: 24px;
+  height: 150px;
+  right: 12px;
+  position: relative;
+  /* margin: auto; */
+  z-index: 10;
+  border: 1px solid black;
+  background: black;
+  /* display: block; */
+  box-sizing: border-box;
+  text-align: center;
+  /* padding-top: 200px; */
+  border-radius: 0px 0px 5px 5px;
+}
+
+.KeyDown[type="black"] {
+  width: 24px;
+  height: 150px;
+  right: 12px;
+  position: relative;
+  /* margin: auto; */
+  z-index: 10;
+  border: 1px solid black;
+  background: green;
+  /* display: block; */
+  box-sizing: border-box;
+  text-align: center;
+  /* padding-top: 200px; */
+  border-radius: 0px 0px 5px 5px;
+}
+
+text {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 5px;
+}
